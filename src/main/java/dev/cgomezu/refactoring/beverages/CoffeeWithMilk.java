@@ -1,21 +1,10 @@
 package dev.cgomezu.refactoring.beverages;
 
 
-import dev.cgomezu.refactoring.beverages.additions.Milk;
-
-final class CoffeeWithMilk implements Product {
-
-    private Coffee coffe;
-    private Milk milk;
-
-    CoffeeWithMilk(Coffee coffe, Milk milk) {
-        this.coffe = coffe;
-        this.milk = milk;
-    }
-
+public class CoffeeWithMilk extends Coffee {
 
     @Override
     public double price() {
-        return coffe.price() + milk.price();
+        return super.price() + 0.10;
     }
 }

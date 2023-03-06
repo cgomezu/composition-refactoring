@@ -1,5 +1,5 @@
 package dev.cgomezu.refactoring.beverages;
 
-public interface Product {
+public interface Beverages {
     double price();
 }

@@ -1,6 +1,6 @@
 package dev.cgomezu.refactoring.beverages;
 
-final class Coffee implements Product {
+public class Coffee implements Beverages {
     @Override
     public double price() {
         return 1.2;
