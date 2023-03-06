@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.cgomezu.refactoring.beverages.BeveragesPricingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-03-06T14:43:18" hostname="psegjjbktn2.suramericana.com.co" time="0.014">
+  <properties/>
+  <testcase name="computes_coffee_price()" classname="dev.cgomezu.refactoring.beverages.BeveragesPricingTest" time="0.011"/>
+  <testcase name="computes_coffee_with_milk_and_cream_price()" classname="dev.cgomezu.refactoring.beverages.BeveragesPricingTest" time="0.001"/>
+  <testcase name="computes_coffee_with_milk_price()" classname="dev.cgomezu.refactoring.beverages.BeveragesPricingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
